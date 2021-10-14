@@ -1,5 +1,5 @@
 # team-profile-generator-
-
+<img src="https://github.com/dlolivas/team-profile-generator-/blob/main/screenshots/html.png" >
 
 ## User-Story 
 AS A manager
