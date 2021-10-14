@@ -125,6 +125,19 @@ const promptMember = teamData => {
                                 };
                             }
                         },
+                        {
+                            type: 'input',
+                            name: 'engineerGithub',
+                            message: "please enter the engineer's github username",
+                            validate: engineerGithubInput => {
+                                if (engineerGithubInput) {
+                                    return true;
+                                }else {
+                                    console.log(' Please enter a username!');
+                                    return false;
+                                }
+                            }
+                        },
                         
                         {
                             type: 'confirm',
